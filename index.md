@@ -1,8 +1,8 @@
-## Welcome to Secured-Monitor Solution
+# Welcome to Secured-Monitor Solution
 
 After pasting the 3 flags you had got the IP of the box i.e. `100.27.12.78`
 
-### Recon
+# Recon
 
 Lets get started with nmap as always and we get port 80 open thats great!
 
@@ -32,7 +32,7 @@ We find something interesting!
 
 lets run it :3 with netcat and ngrok (incase if you dont have)
 
-### Exploitation
+# Exploitation
 
 Run the python exploit which we have got from `https://www.exploit-db.com/exploits/48980`
 
