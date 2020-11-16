@@ -1,15 +1,14 @@
-## Welcome to GitHub Pages
+## Welcome to Secured-Monitor Solution
 
-You can use the [editor on GitHub](https://github.com/justlife4x4/securedMonitorSolution.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+After pasting the 3 flags you had got the IP of the box i.e. `http://100.27.12.78/`
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Recon
 
-### Markdown
+Lets get started with nmap as always and we get port 80 open thats great!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[https://i.ibb.co/6RvyYyD/portscan.jpg](https://i.ibb.co/6RvyYyD/portscan.jpg)
 
-```markdown
-Syntax highlighted code block
+Now lets 
 
 # Header 1
 ## Header 2
