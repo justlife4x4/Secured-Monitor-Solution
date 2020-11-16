@@ -49,6 +49,30 @@ On crawling around the server we find that the `root.txt` but we cannot read it 
 
 # Privelege Escalation
 
+So I have 2 different ways of privelege escalation
+
+i> Intended Way
+ii> Unintended Way
+
+## Intended Way
+
+There is a file called `todo.txt`
+
+On opening we see
+
+```
+www-data@ip-172-31-57-243:/home$ cat todo.txt
+Always read books from library especially OS books!
+You can also try the most simplest encryption method!
+```
+Interesting!
+
+We also see a program called `devs_note.py`
+
+![devs_note](https://i.ibb.co/q7kd1QY/devsnote.jpg)
+
+From `todo.txt` we see read about OS which is a python module imported in program!
+
 
 
 
