@@ -6,7 +6,7 @@ After pasting the 3 flags you had got the IP of the box i.e. `http://100.27.12.7
 
 Lets get started with nmap as always and we get port 80 open thats great!
 
-[Port Scan](https://i.ibb.co/6RvyYyD/portscan.jpg)
+![Port Scan](https://i.ibb.co/6RvyYyD/portscan.jpg)
 
 Now lets 
 
